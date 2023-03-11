@@ -1,0 +1,123 @@
+body {background-image:url(resources/images/house\ 4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin:0;
+      color:white;}
+      
+
+.header{display:flex;
+        height:170px;
+        width:100%;
+        align-items:center;
+        justify-content:left;
+        background-color:black;
+        border-bottom:2px solid white;
+        color:white;}
+        
+
+#logo{display: flex;
+      max-height:160px;
+      justify-content:flex-start;
+      border-radius: 100%;}
+
+.header h1 {display:flex;
+            font-size: 55px;
+            font-family: 'Tilt Prism', cursive;
+            padding-left: 20px;}
+
+.nav{display:flex;
+     color:white;
+     font-size:20px;
+    align-content:center;
+    column-gap: 10px;
+    padding:75px;
+    font-weight:bold;}   
+
+.nav p{color:white;}
+
+a{color:white;}
+
+.mission{display:flex; 
+      justify-content: center;}
+
+.content{display:flex;
+         flex-flow: column;
+         margin-top:200px;
+         background:rgba(0,0,0,.8);
+         height:auto;
+         padding:20px;
+         align-items: center;
+         padding-bottom: 75px;}
+
+
+.content h2{display:flex;
+           justify-content:center;
+           font-size:40px;
+           padding-bottom:0px;
+           margin-bottom:0;}
+
+.content h4{display:flex;
+            font-size:24px;
+            margin-top:10px;}
+
+.featured{display:flex;
+          flex-flow: column;
+          justify-content: center;
+          margin-top:50px;}
+        
+
+.featured h2{display:flex;}
+
+.featured h4{display:flex;
+             justify-content: center;}
+
+.properties{display:flex;
+            width:fit-content;}
+
+.house{display:flex;
+       column-gap: 50px;
+       }
+
+.house img{max-width: 300px;
+           opacity:1;}
+
+.caption{display:flex;
+         width:300px;
+         flex-wrap: wrap;}
+.team-container{margin-top: 100px;
+                background-color: black;
+                opacity: .8;
+                padding-top:10px;}
+
+.team-container h2{display:flex;
+                justify-content: center;}
+
+.team{display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+
+.teammate{display:flex;
+          flex-flow:column;
+          justify-content: center;
+          padding:10px;
+          flex-basis:280px;
+          }
+
+.teammate img{width:150px;
+              height:150px;
+              margin-left: auto;
+              margin-right: auto;
+              justify-content: center;}
+
+ .teammate h2{display:flex;
+              margin:0;
+              justify-content: center;
+              background-color: black;}
+
+.teammate p{display: flex;
+            justify-content: center;
+            margin-top:5px;
+            background-color: black;}
+        
+ 
