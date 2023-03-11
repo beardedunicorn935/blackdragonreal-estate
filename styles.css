@@ -8,7 +8,7 @@ body {background-image:url(resources/images/house\ 4.jpg);
 
 .header{display:flex;
         height:170px;
-        width:100%;
+        width:auto
         align-items:center;
         justify-content:left;
         background-color:black;
